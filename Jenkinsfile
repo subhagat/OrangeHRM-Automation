@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        jdk 'Java 1.8'
-        maven 'Maven 3.8.1'
+        jdk 'javac 21.0.8'
+        maven 'Maven 3.9.11'
     }
 
     environment {
@@ -19,13 +19,13 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'mvn clean compile'
+                bat 'mvn clean compile'
             }
         }
 
         stage('Test') {
             steps {
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
 
