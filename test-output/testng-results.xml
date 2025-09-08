@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="3" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-25T20:59:41 IST" name="OrangeHRM Test Suite" finished-at="2025-08-25T21:01:59 IST" duration-ms="138092">
+    <groups>
+    </groups>
+    <test started-at="2025-08-25T20:59:41 IST" name="Login and Admin Tests" finished-at="2025-08-25T21:01:59 IST" duration-ms="138092">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="cleanScreenshotsOnce()[pri:0, instance:tests.LoginTest@710f4dc7]" started-at="2025-08-25T20:59:41 IST" name="cleanScreenshotsOnce" finished-at="2025-08-25T20:59:41 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanScreenshotsOnce -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@710f4dc7]" started-at="2025-08-25T20:59:41 IST" name="setup" finished-at="2025-08-25T20:59:51 IST" duration-ms="10331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTest.loginTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:tests.LoginTest@710f4dc7]" started-at="2025-08-25T20:59:51 IST" name="loginTest" finished-at="2025-08-25T20:59:55 IST" duration-ms="4172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@710f4dc7]" started-at="2025-08-25T20:59:55 IST" name="tearDown" finished-at="2025-08-25T20:59:58 IST" duration-ms="2616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest()[pri:0, instance:tests.LoginTest@710f4dc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.AdminSearchTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.AdminSearchTest@7817fd62]" started-at="2025-08-25T20:59:58 IST" name="setup" finished-at="2025-08-25T21:00:04 IST" duration-ms="6504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AdminSearchTest.searchAdminUserTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchAdminUserTest()[pri:0, instance:tests.AdminSearchTest@7817fd62]" started-at="2025-08-25T21:00:04 IST" name="searchAdminUserTest" finished-at="2025-08-25T21:00:13 IST" duration-ms="9042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAdminUserTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.AdminSearchTest@7817fd62]" started-at="2025-08-25T21:00:13 IST" name="tearDown" finished-at="2025-08-25T21:00:16 IST" duration-ms="2494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchAdminUserTest status=SUCCESS method=AdminSearchTest.searchAdminUserTest()[pri:0, instance:tests.AdminSearchTest@7817fd62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AdminSearchTest -->
+      <class name="tests.LoginDataProviderTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:00:16 IST" name="setup" finished-at="2025-08-25T21:00:23 IST" duration-ms="6744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginDataProviderTest.loginDDT(utils.CsvUtils$Credential) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(utils.CsvUtils$Credential)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:00:23 IST" name="loginDDT" data-provider="csvData" finished-at="2025-08-25T21:00:32 IST" duration-ms="9135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username: [Admin] | Password: [admin123]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:00:32 IST" name="tearDown" finished-at="2025-08-25T21:00:34 IST" duration-ms="2450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginDDT status=SUCCESS method=LoginDataProviderTest.loginDDT(utils.CsvUtils$Credential)[pri:0, instance:tests.LoginDataProviderTest@8297b3a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:00:34 IST" name="setup" finished-at="2025-08-25T21:00:42 IST" duration-ms="7968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginDataProviderTest.loginDDT(utils.CsvUtils$Credential) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(utils.CsvUtils$Credential)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:00:42 IST" name="loginDDT" data-provider="csvData" finished-at="2025-08-25T21:00:47 IST" duration-ms="4660" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username: [FMLName] | Password: [FMLName1]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login failed.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login failed.
+at org.testng.Assert.fail(Assert.java:111)
+at tests.LoginDataProviderTest.loginDDT(LoginDataProviderTest.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:00:47 IST" name="tearDown" finished-at="2025-08-25T21:00:49 IST" duration-ms="2479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginDDT status=FAILURE method=LoginDataProviderTest.loginDDT(utils.CsvUtils$Credential)[pri:0, instance:tests.LoginDataProviderTest@8297b3a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:00:49 IST" name="setup" finished-at="2025-08-25T21:00:57 IST" duration-ms="8024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginDataProviderTest.loginDDT(utils.CsvUtils$Credential) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(utils.CsvUtils$Credential)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:00:57 IST" name="loginDDT" data-provider="csvData" finished-at="2025-08-25T21:01:02 IST" duration-ms="4596" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username: [EMPTY] | Password: [admin123]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login failed unexpectedly — no dashboard and no error message.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login failed unexpectedly — no dashboard and no error message.
+at org.testng.Assert.fail(Assert.java:111)
+at tests.LoginDataProviderTest.loginDDT(LoginDataProviderTest.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:01:02 IST" name="tearDown" finished-at="2025-08-25T21:01:06 IST" duration-ms="4049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginDDT status=FAILURE method=LoginDataProviderTest.loginDDT(utils.CsvUtils$Credential)[pri:0, instance:tests.LoginDataProviderTest@8297b3a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:01:06 IST" name="setup" finished-at="2025-08-25T21:01:12 IST" duration-ms="5936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginDataProviderTest.loginDDT(utils.CsvUtils$Credential) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(utils.CsvUtils$Credential)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:01:12 IST" name="loginDDT" data-provider="csvData" finished-at="2025-08-25T21:01:16 IST" duration-ms="4152" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username: [FMLName] | Password: [EMPTY]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login failed unexpectedly — no dashboard and no error message.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login failed unexpectedly — no dashboard and no error message.
+at org.testng.Assert.fail(Assert.java:111)
+at tests.LoginDataProviderTest.loginDDT(LoginDataProviderTest.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:01:16 IST" name="tearDown" finished-at="2025-08-25T21:01:19 IST" duration-ms="2464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginDDT status=FAILURE method=LoginDataProviderTest.loginDDT(utils.CsvUtils$Credential)[pri:0, instance:tests.LoginDataProviderTest@8297b3a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:01:19 IST" name="setup" finished-at="2025-08-25T21:01:26 IST" duration-ms="7695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginDataProviderTest.loginDDT(utils.CsvUtils$Credential) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(utils.CsvUtils$Credential)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:01:26 IST" name="loginDDT" data-provider="csvData" finished-at="2025-08-25T21:01:31 IST" duration-ms="4182" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username: [WrongUser] | Password: [EMPTY]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login failed unexpectedly — no dashboard and no error message.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login failed unexpectedly — no dashboard and no error message.
+at org.testng.Assert.fail(Assert.java:111)
+at tests.LoginDataProviderTest.loginDDT(LoginDataProviderTest.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:01:31 IST" name="tearDown" finished-at="2025-08-25T21:01:33 IST" duration-ms="2434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginDDT status=FAILURE method=LoginDataProviderTest.loginDDT(utils.CsvUtils$Credential)[pri:0, instance:tests.LoginDataProviderTest@8297b3a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:01:33 IST" name="setup" finished-at="2025-08-25T21:01:39 IST" duration-ms="6448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginDataProviderTest.loginDDT(utils.CsvUtils$Credential) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(utils.CsvUtils$Credential)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:01:39 IST" name="loginDDT" data-provider="csvData" finished-at="2025-08-25T21:01:43 IST" duration-ms="3542" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username: [EMPTY] | Password: [EMPTY]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login failed unexpectedly — no dashboard and no error message.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login failed unexpectedly — no dashboard and no error message.
+at org.testng.Assert.fail(Assert.java:111)
+at tests.LoginDataProviderTest.loginDDT(LoginDataProviderTest.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:01:43 IST" name="tearDown" finished-at="2025-08-25T21:01:45 IST" duration-ms="2466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginDDT status=FAILURE method=LoginDataProviderTest.loginDDT(utils.CsvUtils$Credential)[pri:0, instance:tests.LoginDataProviderTest@8297b3a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:01:45 IST" name="setup" finished-at="2025-08-25T21:01:53 IST" duration-ms="7292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginDataProviderTest.loginDDT(utils.CsvUtils$Credential) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(utils.CsvUtils$Credential)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:01:53 IST" name="loginDDT" data-provider="csvData" finished-at="2025-08-25T21:01:56 IST" duration-ms="3545" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username: [FMLName] | Password: [EMPTY]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login failed unexpectedly — no dashboard and no error message.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login failed unexpectedly — no dashboard and no error message.
+at org.testng.Assert.fail(Assert.java:111)
+at tests.LoginDataProviderTest.loginDDT(LoginDataProviderTest.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataProviderTest@8297b3a]" started-at="2025-08-25T21:01:56 IST" name="tearDown" finished-at="2025-08-25T21:01:59 IST" duration-ms="2521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginDDT status=FAILURE method=LoginDataProviderTest.loginDDT(utils.CsvUtils$Credential)[pri:0, instance:tests.LoginDataProviderTest@8297b3a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginDataProviderTest -->
+    </test> <!-- Login and Admin Tests -->
+  </suite> <!-- OrangeHRM Test Suite -->
+</testng-results>
